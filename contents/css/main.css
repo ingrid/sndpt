@@ -132,6 +132,11 @@ body.article-detail > header {
   margin: 3em;
 }
 
+.article-img > img {
+    //height:400px;
+    //width:200px;
+}
+
 /* page footer */
 
 footer {
@@ -150,7 +155,7 @@ footer .nav a {
   text-decoration: none;
 }
 
-footer .about {
+footer .zinger {
   border-top: 1px dashed #d2d2d2;
   padding: 2.2em 3em;
   font-size: 0.7em;
@@ -198,6 +203,7 @@ footer .copy, footer .copy a {
 
 .article header .date span {
   background-color: #f8f8f8;
+  background-color: #A1FFEF;
   padding: 0 0.7em;
 }
 
@@ -419,7 +425,7 @@ code.lang-markdown .bullet {
   footer .nav {
     margin: 1em 0;
   }
-  footer .about {
+  footer .zinger {
     padding: 0;
     font-size: 0.9em;
     padding-top: 1.6em;
@@ -428,7 +434,13 @@ code.lang-markdown .bullet {
     -ms-column-count: 1;
     column-count: 1;
   }
-  footer .about p {
+  footer .zinger p {
     margin-bottom: 1em;
   }
+}
+
+.logo {
+    background-color: #A1FFEF;
+    width: 79px;
+    height: 22px;
 }
